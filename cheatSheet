@@ -1,0 +1,18 @@
+Useful Characters
+
+\d digit 0 to 9
+\D Anything other than \n
+\s equivalent to [\f\n\r\t\v]
+\S equivalent to [^\f\n\r\t\v]
+\w equalivalent to [a-zA-Z0-9]
+\W equalivalent to [^a-zA-Z0-9]
+
+Quantifiers
+
++ one or more
+* Zero or more tomes
+? once or none
+{x} x times
+{x,y} x to y times
+{x,} x or more
+[x-y] In range of x and y
