@@ -8,7 +8,7 @@ pat_char_occurence: str = "(.)\1\1"
 #check occurence of a substring more than once
 pat_sub_str_occurence: str = "(..)(.*?)\1"
 
-if re.match('\n', input_str) or re.match(' ', input_str) :
+if re.search('\n', input_str) or re.search(' ', input_str) :
     print("Password cannot contain new line or space ")
 
 if 9 <= len(input_str) <= 20:
